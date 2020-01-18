@@ -2,25 +2,98 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1" />
 
-    <title>Liang Chen</title>
+    <title>Liang's Portfolio</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
 
-  <h1 class="header">Welcome to my portfolio</h1>
-
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/#about">About</a></li>
-          <li><a href="/#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="unsupported-section hide">
+      <h1>Your device is not compatible with this page.</h1>
+    </div>
+
+    <main class="main">
+      <section class="top-panel">
+        <div class="external-links">
+          <a class="link" href="https://www.linkedin.com/in/liang-r-chen" target="_blank">
+            <img class='icon' src="assets/icons/linkedin-icon.png" alt='Linkedin Icon'>
+          </a>
+          <a class="link" href="https://github.com/lngchn" target="_blank">
+            <img class='icon' src="assets/icons/octocat.png" alt='GitHub Icon'>
+          </a>
+        </div>
+
+        <h1 class="name">Liang Chen</h1>
+        <h2 class="job-title">Web Developer</h2>
+        <article class="about-me text">
+          Hi there! I am an experienced web developer versatile in full-stack development.
+          I employ a diverse skill set and professional experience from large and small projects.
+          I am also experienced in responsive web design. Feel free to resize this page; it supports screen width 360 pixels or higher.
+        </article>
+      </section>
+
+      <section class="bottom-panel">
+        <article class="skills">
+          <h3 class="article-header">Skills</h3>
+          <div class='skill-logos'>
+            <img class='logo' src="assets/icons/react-logo.png" alt='React Logo'>
+            <img class='logo' src="assets/icons/redux-logo.png" alt='Redux Logo'>
+            <img class='logo' src="assets/icons/node-logo.svg" alt='Node Logo'>
+            <img class='logo' src="assets/icons/postgre-logo.png" alt='PostgreSQL Logo'>
+            <img class='logo' src="assets/icons/angular-logo.svg" alt='Angular Logo'>
+            <img class='logo' src="assets/icons/html-css-js-logo.png" alt='HTML CSS and JS Logo'>
+            <img class='logo' src="assets/icons/git-logo.png" alt='Git Logo'>
+            <img class='logo' src="assets/icons/graphql-logo.png" alt='GraphQL Logo'>
+            <img class='logo' src="assets/icons/rails-logo.png" alt='Rails Logo'>
+          </div>
+        </article>
+        <article class="my-work">
+          <h3 class="article-header">My Works</h3>
+          <p class="nda-note text">*Due to non-disclosure agreement that some projects imposed. I may not be able to disclose what company or organization those projects were for or show project content.</p>
+          <div class="work">
+            <h4 class="work-header">Higher Education Institution</h4>
+            <ul class="work-list text">
+              <li>
+                Developed features using React and Ruby on Rails.
+              </li>
+              <li>
+                Determined impacts of logic changes on the codebases.
+              </li>
+              <li>
+                Addressed technical questions and issues from the client.
+              </li>
+              <li>
+                Participated in agile development and weekly meetings with the client.
+              </li>
+            </ul>
+          </div>
+          <div class="work">
+            <h4 class="work-header">Multinational Investment Bank</h4>
+            <ul class="work-list text">
+              <li>
+                Developed a frontend solution using Angular and Typescript.
+              </li>
+              <li>
+                Modernize an internal web app utilized by its bankers in supporting banker-client relation and to provide ease of use over the legacy system.              </li>
+              <li>
+                Heavily emphasized in UI components reusability, integrated bank's backend API, and participated in scrum methodology.​
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="education">
+          <h3 class="article-header">Education</h3>
+          <p class="text">
+            Computer Science Bachelor of Arts - CUNY Hunter College
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
